@@ -21,13 +21,13 @@ Experience the core functionality through these demo videos:
 | Feature               | Preview                                       |
 |-----------------------|----------------------------------------------|
 | 🏠 Home Page           | ![Home](videos/v1.gif)                        |
-| 🚘 Car Listings        | ![Car Listings](videos/v2.gif)                |
+| 🚘 Walk Through        | ![Car Listings](videos/v2.gif)                |
 | 📅 Booking Conditions  | ![Booking](videos/v3.gif)                      |
-| 💳 Payment Time Slot   | ![Payment](videos/v4.gif)                      |
-| 🔐 User Authentication | ![Auth](videos/v5.gif)                         |
-| 🧾 Booking Overview    | ![Bookings](videos/v6.gif)                     |
+| 💳 Time Slot Selection  | ![Payment](videos/v4.gif)                      |
+| 🔐 Booking Overview      | ![Auth](videos/v5.gif)                         |
+| 🧾 Payment Overview    | ![Bookings](videos/v6.gif)                     |
 | 🛠️ Contact Admin       | ![Admin](videos/v7.gif)                        |
-| 📬 Login & Admin Panel | ![Contact](videos/v8.gif)                      |
+| 📬 Login,Signup & Admin Panel | ![Contact](videos/v8.gif)                      |
 
 ---
 
