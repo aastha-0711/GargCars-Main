@@ -1,64 +1,52 @@
-# 🚗 Garg Cars - Car Booking Platform
+# 🚗 Garg Cars — Modern Car Booking Platform
 
-A modern car rental web application that allows users to seamlessly book cars at affordable prices. Built using React, Node.js, MongoDB, and integrated with Stripe for secure payments.
-
----
-
-## 🔥 Features
-
-- Browse available cars
-- Book with real-time calendar slots
-- Stripe integration for secure payments
-- Admin panel to manage bookings and inventory
-- Contact form with email support
+A sleek and user-friendly car rental web application designed to help users effortlessly book cars at competitive prices. Powered by React, Node.js, MongoDB, and integrated with Stripe for secure, seamless payments.
 
 ---
 
-## 📽️ Demo Walkthrough
+## ✨ Features
 
-> Below are demo walkthroughs showing key features of the app:
+- 🚙 Browse a diverse selection of cars  
+- 📅 Book cars with real-time availability and calendar slots  
+- 🔒 Secure payment processing via Stripe  
+- 🛠️ Admin dashboard for managing bookings and inventory  
+- 📧 Contact form with email support via EmailJS  
 
-### 🧩 Home Page
-![Home](videos/v1.gif)
+---
 
-### 🚘 Car Listings
-![Car Listings](videos/v2.gif)
+## 🎬 Demo Walkthrough
 
-### 📅 Booking a Car
-![Booking](videos/v3.gif)
+Experience the core functionality through these demo videos:
 
-### 💳 Payment Integration
-![Payment](videos/v4.gif)
-
-### 🔐 User Login & Signup
-![Auth](videos/v5.gif)
-
-### 🧾 User Bookings
-![Bookings](videos/v6.gif)
-
-### 🛠️ Admin Panel
-![Admin](videos/v7.gif)
-
-### 📬 Contact Form
-![Contact](videos/v8.gif)
+| Feature               | Preview                                       |
+|-----------------------|----------------------------------------------|
+| 🏠 Home Page           | ![Home](videos/v1.gif)                        |
+| 🚘 Car Listings        | ![Car Listings](videos/v2.gif)                |
+| 📅 Booking Conditions  | ![Booking](videos/v3.gif)                      |
+| 💳 Payment Time Slot   | ![Payment](videos/v4.gif)                      |
+| 🔐 User Authentication | ![Auth](videos/v5.gif)                         |
+| 🧾 Booking Overview    | ![Bookings](videos/v6.gif)                     |
+| 🛠️ Contact Admin       | ![Admin](videos/v7.gif)                        |
+| 📬 Login & Admin Panel | ![Contact](videos/v8.gif)                      |
 
 ---
 
 ## 🛠️ Tech Stack
 
-- **Frontend**: React.js, Ant Design, Styled Components
-- **Backend**: Node.js, Express.js
-- **Database**: MongoDB
-- **Payment**: Stripe
-- **Email Service**: EmailJS
+| Layer         | Technologies                       |
+|---------------|----------------------------------|
+| **Frontend**  | React.js, Ant Design, Styled Components |
+| **Backend**   | Node.js, Express.js               |
+| **Database**  | MongoDB                          |
+| **Payments**  | Stripe                          |
+| **Email**     | EmailJS                         |
 
 ---
 
-## 📦 Installation
+## 🚀 Installation & Setup
+
+### 1. Clone the repository
 
 ```bash
 git clone https://github.com/yourusername/garg-cars.git
 cd garg-cars
-npm install
-npm start
-
