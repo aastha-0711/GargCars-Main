@@ -10,10 +10,10 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        "",
-        "",
+        "service_gw3maeh",
+        "template_87z5xim",
         e.target,
-        "" // Make sure this is the exact key from the dashboard
+        "bFkQYdwb5c89rw2QG" // Make sure this is the exact key from the dashboard
       )
       .then(
         (result) => {

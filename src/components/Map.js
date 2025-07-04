@@ -28,8 +28,8 @@ const Map = () => {
       <ReactMapGL
         {...viewport}
         onViewportChange={(nextViewport) => setViewport(nextViewport)}
-        mapboxApiAccessToken=""
-        mapStyle="https://api.maptiler.com/maps/streets/style.json?key="
+        mapboxApiAccessToken="OPOusVojImDNccNaGA0N"
+        mapStyle="https://api.maptiler.com/maps/streets/style.json?key=OPOusVojImDNccNaGA0N"
       >
         <Marker latitude={31.519208} longitude={74.319163}>
           <div className="marker">

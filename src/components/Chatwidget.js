@@ -88,7 +88,7 @@ const Chatwidget = () => {
       newMessage.includes("how to pay") ||
       newMessage.includes("How to pay")
     ) {
-      addResponseMessage(`We accept Payments from stripe only.`);
+      addResponseMessage(`We accept Payments from RazorPay only.`);
     } else if (newMessage.includes("free") || newMessage.includes("Free")) {
       addResponseMessage(`Free word is unknown to me.`);
     } else if (
