@@ -1,6 +1,6 @@
 # 🚗 Garg Cars — Modern Car Booking Platform
 
-A sleek and user-friendly car rental web application designed to help users effortlessly book cars at competitive prices. Powered by React, Node.js, MongoDB, and integrated with Stripe for secure, seamless payments.
+A sleek and user-friendly car rental web application designed to help users effortlessly book cars at competitive prices. Powered by React, Node.js, MongoDB, and integrated with RazorPay for secure, seamless payments.
 
 ---
 
@@ -8,7 +8,7 @@ A sleek and user-friendly car rental web application designed to help users effo
 
 - 🚙 Browse a diverse selection of cars  
 - 📅 Book cars with real-time availability and calendar slots  
-- 🔒 Secure payment processing via Stripe  
+- 🔒 Secure payment processing via RazorPay  
 - 🛠️ Admin dashboard for managing bookings and inventory  
 - 📧 Contact form with email support via EmailJS  
 
@@ -46,7 +46,7 @@ A fast, unopinionated, minimalist web framework for Node.js.
 A flexible NoSQL database for storing car data, user profiles, and bookings.
 
 ### Payments  
-**Stripe**  
+**RazorPay**  
 Securely handling all payment transactions.
 
 ### Email  
