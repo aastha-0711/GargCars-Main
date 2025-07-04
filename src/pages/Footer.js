@@ -31,7 +31,7 @@ const Footer = () => {
                 <div className="single-cta">
                   <div className="cta-text">
                     <h4>Call us</h4>
-                    <span>+91931</span>
+                    <span>+919315102174</span>
                   </div>
                 </div>
               </div>
