@@ -33,13 +33,25 @@ Experience the core functionality through these demo videos:
 
 ## 🛠️ Tech Stack
 
-| Layer         | Technologies                       |
-|---------------|----------------------------------|
-| **Frontend**  | React.js, Ant Design, Styled Components |
-| **Backend**   | Node.js, Express.js               |
-| **Database**  | MongoDB                          |
-| **Payments**  | Stripe                          |
-| **Email**     | EmailJS                         |
+### Frontend  
+**React.js, Ant Design, Styled Components**  
+Building dynamic user interfaces with a rich component library and CSS-in-JS.
+
+### Backend  
+**Node.js, Express.js**  
+A fast, unopinionated, minimalist web framework for Node.js.
+
+### Database  
+**MongoDB**  
+A flexible NoSQL database for storing car data, user profiles, and bookings.
+
+### Payments  
+**Stripe**  
+Securely handling all payment transactions.
+
+### Email  
+**EmailJS**  
+Enabling direct email communication from the contact form without a custom backend email server.
 
 ---
 
