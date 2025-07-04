@@ -43,6 +43,14 @@ Experience the core functionality through these demo videos:
 
 ---
 
+## 📞 Contact
+
+For any questions or inquiries, please reach out to:
+
+**Aastha Garg** — [aasthagarg0711@gmail.com](mailto:aasthagarg0711@gmail.com)
+
+---
+
 ## 🚀 Installation & Setup
 
 ### 1. Clone the repository
