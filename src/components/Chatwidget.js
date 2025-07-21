@@ -108,7 +108,7 @@ const Chatwidget = () => {
       newMessage.includes("Phone")
     ) {
       addResponseMessage(
-        `You can send your number here or can directly contact the owner via +923310145083`
+        `You can send your number here or can directly contact the owner via +931510217493`
       );
     } else if (newMessage.includes("hacker") || newMessage.includes("Hacker")) {
       addResponseMessage(`Hahaha, Nice joke 😄`);
@@ -135,7 +135,7 @@ const Chatwidget = () => {
       addResponseMessage(`I'm Marvin & I'm a Bot 🤖`);
     } else {
       addResponseMessage(
-        `Sorry, I'm currently learning your language. I don't know the answer. Please contact on this number +9315102174.`
+        `Sorry, I'm currently learning your language. I don't know the answer. Please contact on this number +931510217493.`
       );
     }
   };
