@@ -5,8 +5,8 @@ import "mapbox-gl/dist/mapbox-gl.css";
 
 const Map = () => {
   const [viewport, setViewport] = React.useState({
-    latitude: 31.5304,
-    longitude: 74.3487,
+latitude: 28.8909,
+    longitude: 76.5796,
     width: "100vw",
     height: "80vh",
     zoom: 12,
