@@ -31,7 +31,7 @@ latitude: 28.8909,
         mapboxApiAccessToken="OPOusVojImDNccNaGA0N"
         mapStyle="https://api.maptiler.com/maps/streets/style.json?key=OPOusVojImDNccNaGA0N"
       >
-        <Marker latitude={31.519208} longitude={74.319163}>
+         <Marker latitude={28.8909} longitude={76.5796}>
           <div className="marker">
             <a
               href="https://www.google.com/maps/place/Rohtak+-+Sonipat+Road,+Rohtak,+Haryana"
