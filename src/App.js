@@ -1,6 +1,8 @@
 import "./App.css";
-import "antd/dist/antd.css";
+import "antd/dist/antd.css"; // Keep this for Ant Design styling
 import { Route, BrowserRouter, Routes, Navigate } from "react-router-dom";
+
+// Import your page components
 import Home from "./pages/Home";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
@@ -16,6 +18,11 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Routes>
+          {/* Public Routes (accessible without login) */}
+          <Route path="/login" element={<Login />} />
+          <Route path="/register" element={<Register />} />
+
+          {/* Protected Routes (require JWT authentication) */}
           <Route
             path="/"
             element={
@@ -32,13 +39,16 @@ function App() {
               </ProtectedRoute>
             }
           />
-          <Route path="/login" element={<Login />} />
-          <Route path="/register" element={<Register />} />
+          {/* Note: /booking also points to Home. This route might be redundant if / just shows all cars.
+             If '/booking' should be specifically for booking *process initiation* for ANY car,
+             and requires login, then keep it protected.
+          */}
           <Route
             path="/booking"
             element={
               <ProtectedRoute>
-                <Home />
+                <Home />{" "}
+                {/* Or whatever component should be shown at /booking */}
               </ProtectedRoute>
             }
           />
@@ -98,7 +108,12 @@ function App() {
 
 export default App;
 
+// Modified ProtectedRoute function
 export function ProtectedRoute({ children }) {
-  const auth = localStorage.getItem("user");
-  return auth ? children : <Navigate to="/login" />;
+  // Check for the presence of the JWT (authToken) in localStorage
+  const authToken = localStorage.getItem("authToken");
+
+  // If authToken exists, render the child components (the protected page)
+  // Otherwise, navigate the user to the /login page
+  return authToken ? children : <Navigate to="/login" />;
 }

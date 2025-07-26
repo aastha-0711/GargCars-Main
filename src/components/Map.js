@@ -5,7 +5,11 @@ import "mapbox-gl/dist/mapbox-gl.css";
 
 const Map = () => {
   const [viewport, setViewport] = React.useState({
+<<<<<<< HEAD
 latitude: 28.8909,
+=======
+    latitude: 28.8909,
+>>>>>>> d94e9b9 (Initial commit)
     longitude: 76.5796,
     width: "100vw",
     height: "80vh",
@@ -31,7 +35,11 @@ latitude: 28.8909,
         mapboxApiAccessToken="OPOusVojImDNccNaGA0N"
         mapStyle="https://api.maptiler.com/maps/streets/style.json?key=OPOusVojImDNccNaGA0N"
       >
+<<<<<<< HEAD
          <Marker latitude={28.8909} longitude={76.5796}>
+=======
+        <Marker latitude={28.8909} longitude={76.5796}>
+>>>>>>> d94e9b9 (Initial commit)
           <div className="marker">
             <a
               href="https://www.google.com/maps/place/Rohtak+-+Sonipat+Road,+Rohtak,+Haryana"
